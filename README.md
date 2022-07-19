@@ -1,3 +1,2 @@
-# Python Projects 
-
+# Python Projects
 ## By Lucas Gruden
