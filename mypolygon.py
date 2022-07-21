@@ -1,12 +1,5 @@
 import turtle
-def square(t, length):
-    for i in range(4):
-        t.fd(length)
-        t.lt(90)
-def polygon(t, n, length):
-    for i in range(n):
-        t.fd(length)
-        t.lt(360/n)
+'''
 def circle(t, r):
     circumference = 2 * 3.14 * r
     n = 50
@@ -20,5 +13,15 @@ def arc(t, r, angle):
     for i in range(n):
         t.fd(step_length)
         t.lt(step_angle)
+'''
+def square(t, length):
+    for i in range(4):
+        t.fd(length)
+        t.lt(90)
+def polygon(t, n, length):
+    for i in range(n):
+        t.fd(length)
+        t.lt(360/n)
+
 bob = turtle.Turtle()
 turtle.mainloop()
