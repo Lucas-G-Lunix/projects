@@ -77,7 +77,6 @@ if __name__ == '__main__':
     timeConvert()
     recurse(5, 2)
     '''
-    print(exponent(2, 2))
 
 '''
 Old Format Method
