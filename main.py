@@ -49,6 +49,22 @@ def recurse(n, s):
         print(s)
     else:
         recurse(n-1, n+s)
+def absolute(num):
+    return -num if num < 0 else num
+def finobonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return finobonacci(n-1) + finobonacci(n-2)
+def ack(m, n):
+    if m == 0:
+        return n + 1
+    if n == 0:
+        return ack(m - 1, 1)
+    return ack(m - 1, ack(m, n - 1))
+
 if __name__ == '__main__':
     '''
     do_twice(print, 'spam')
@@ -61,7 +77,7 @@ if __name__ == '__main__':
     timeConvert()
     recurse(5, 2)
     '''
-
+    print(exponent(2, 2))
 
 '''
 Old Format Method
