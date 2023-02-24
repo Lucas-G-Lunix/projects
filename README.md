@@ -1,4 +1,4 @@
 # Python Projects
 
 ---
-## By Lucas Gruden
+Some projects i made in python  
